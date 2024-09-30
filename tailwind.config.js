@@ -10,6 +10,7 @@ export default {
     extend: {
       fontFamily:{
         sans: ["Poppins", "sans-serif"],
+        sans: ["Matemasie", "sans-serif"],       
       },
       colors: {
         primary: "#854d3d",
