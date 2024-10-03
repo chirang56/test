@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        sans: ["Poppins", "sans-serif"],
-        sans: ["Matemasie", "sans-serif"],       
+        poppins: ["Poppins", "sans-serif"],
+        chicle: ["Chicle", "cursive"],
       },
       colors: {
         primary: "#854d3d",

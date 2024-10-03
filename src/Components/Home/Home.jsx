@@ -12,14 +12,14 @@ export const Home = () => {
       gap-6">
         <h1 className="text-5xl sm:text-6xl
         lg:text-7xl font-bold">One-Stop <span 
-          className="text-primary font-serif">
+          className="text-orange-500 font-chicle">
           Pet Shop</span> & Adoption Hub In the Town 
         </h1>
 
          <div>
           <button className="bg-gradient-to-r from-primary 
-          to-secondary border-2 border-primary rounded-full px-4 
-          py-2 text-white hover:scale-105 duration-200">
+          to-secondary border-2 border-primary font-chicle rounded-full px-4 
+          py-2 text-yellow-300 hover:scale-105 duration-200">
             Pet & Breeds
           </button>
          </div>

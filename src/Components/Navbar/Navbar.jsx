@@ -10,13 +10,13 @@ const Menus =[
   },
   {
     id: 2,
-    name: "Services",
-    link: "/#services",
+    name: "Adoption",
+    link: "/#adoption",
   },
   {
     id: 3,
-    name: "About",
-    link: "/#about",
+    name: "Contact",
+    link: "/#contact",
   },
 ]
 export const Navbar = () => {
@@ -31,7 +31,7 @@ export const Navbar = () => {
         <div className="" >
           <a href="#" className="font-bold text-2xl sm:text-3xl
           flex justify-center items-center gap-2
-          tracking-wider font-sans">
+          tracking-wider font-chicle">
             <img src={Logo} alt="Logo" className="w-14"/>
             PetGo Mania
           </a>
@@ -46,7 +46,7 @@ export const Navbar = () => {
                 <li key={index}>
                   <a href={data.link} className="inline-block text-xl 
                   py-4 px-4 text-white/70 hover:text-white
-                  duration-200"> 
+                  duration-200 font-chicle"> 
                     {data.name} 
                   </a>
                 </li>
