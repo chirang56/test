@@ -1,29 +1,31 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Navbar } from './Components/Navbar/Navbar';
-import { Home } from './Components/Home/Home';
+import { Navbar } from "./Components/Navbar/Navbar";
+import { Home } from "./Components/Home/Home";
+import Adoption from "./Components/Adoption/Adoption";
 
 const App = () => {
   useEffect(() => {
-    AOS.init ({
+    AOS.init({
       offset: 100,
       duration: 700,
       easing: "ease-in",
       delay: 100,
     });
   });
+
   return (
     <div className="overflow-x-hidden">
-      <Navbar/>
-      <Home/>
-      {/* <home/>
+      <Navbar />
+      <Home />
+      <Adoption />
+      {/* <Home/>
       <About/>
       <Menu/>
       <Contact/> */}
     </div>
-    );
+  );
 };
 
 export default App;
-

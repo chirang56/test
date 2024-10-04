@@ -24,7 +24,7 @@ export const Navbar = () => {
   
   <div className="bg-gradient-to-r from-secondary-to-primary/90
   text-white">
-    <div className="container bg-red-500">
+    <div className="container bg-orange-500">
       <div className="flex justify-between items-center gap-4 ">
 
         {/* Logo section */}
@@ -32,7 +32,7 @@ export const Navbar = () => {
           <a href="#" className="font-bold text-2xl sm:text-3xl
           flex justify-center items-center gap-2
           tracking-wider font-chicle">
-            <img src={Logo} alt="Logo" className="w-14"/>
+            <img src={Logo} alt="Logo" className="w-14 h-14 rounded-full"/>
             PetGo Mania
           </a>
         </div>
@@ -53,7 +53,7 @@ export const Navbar = () => {
             ))}
           </ul>
           <button className="bg-primary/70 px-4 py-2 rounded-full
-          hover:scale-105 duration-200 flex items-cemter gap-3">
+          hover:scale-105 duration-200 flex items-center gap-3">
             Cart
             <FaOpencart className="text-xl cursor-pointer"/>
           </button>

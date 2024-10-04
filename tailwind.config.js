@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+/* @type {import('tailwindcss').Config} */
 
 export default {
   content: [
@@ -11,10 +11,11 @@ export default {
       fontFamily:{
         poppins: ["Poppins", "sans-serif"],
         chicle: ["Chicle", "cursive"],
+        merienda: ["Merienda", "cursive"],
       },
       colors: {
         primary: "#854d3d",
-        secondary: "4a1e1b",
+        secondary: "#737373",
         brandDark: "#270c03",
       },
       container: {

@@ -11,15 +11,15 @@ export const Home = () => {
       <div className="order-2 sm:order-1 flex flex-col justify-center 
       gap-6">
         <h1 className="text-5xl sm:text-6xl
-        lg:text-7xl font-bold">One-Stop <span 
+        lg:text-7xl font-merienda">One-Stop <span 
           className="text-orange-500 font-chicle">
           Pet Shop</span> & Adoption Hub In the Town 
         </h1>
 
          <div>
           <button className="bg-gradient-to-r from-primary 
-          to-secondary border-2 border-primary font-chicle rounded-full px-4 
-          py-2 text-yellow-300 hover:scale-105 duration-200">
+          to-secondary border-2 border-primary font-chicle rounded-full
+          px-4 py-2 text-yellow-300 hover:scale-105 duration-200">
             Pet & Breeds
           </button>
          </div>
@@ -32,11 +32,11 @@ export const Home = () => {
         sm:scale-110 mx-auto spin"/>
 
         <div className="bg-gradient-to-r from-primary to-secondary 
-        absolute top-10 left-10 p-3 rounded-xl">
+        absolute top-10 left-10 p-3 rounded-es-full">
           <h1> Hey, Pet Lovers </h1>
         </div>
         <div className="bg-gradient-to-r from-primary to-secondary 
-        absolute bottom-10 right-10 p-3 rounded-xl">
+        absolute bottom-10 right-10 p-3 rounded-se-full">
           <h1> PetGo Mania </h1>
         </div>
       </div>
