@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const YourPetMightLove = () => {
   // Sample product data for demonstration purposes (replace with API or database data)
@@ -20,14 +20,14 @@ const YourPetMightLove = () => {
   // Scroll left and right handlers
   const scrollLeft = () => {
     scrollRef.current.scrollBy({
-      left: -300, // Adjust scroll distance as needed
+      left: -200, // Adjust scroll distance as needed
       behavior: "smooth",
     });
   };
 
   const scrollRight = () => {
     scrollRef.current.scrollBy({
-      left: 300, // Adjust scroll distance as needed
+      left: 200, // Adjust scroll distance as needed
       behavior: "smooth",
     });
   };
@@ -46,7 +46,7 @@ const YourPetMightLove = () => {
             className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-orange-500 text-white p-3 rounded-full hover:bg-orange-600 focus:outline-none z-10"
             onClick={scrollLeft}
           >
-            <FaArrowLeft />
+            <FaChevronLeft />
           </button>
 
           {/* Product Cards Container */}
@@ -89,7 +89,7 @@ const YourPetMightLove = () => {
             className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-orange-500 text-white p-3 rounded-full hover:bg-orange-600 focus:outline-none z-10"
             onClick={scrollRight}
           >
-            <FaArrowRight />
+            <FaChevronRight size={20} />
           </button>
         </div>
       </div>
