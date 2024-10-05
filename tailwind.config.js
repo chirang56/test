@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      
+      scrollbar: ['rounded'],
+
       fontFamily:{
         poppins: ["Poppins", "sans-serif"],
         chicle: ["Chicle", "cursive"],

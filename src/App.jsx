@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import { Navbar } from "./Components/Navbar/Navbar";
 import { Home } from "./Components/Home/Home";
 import ProductSection from "./Components/ProductSection/ProductSection";
+import YourPetMightLove from "./Components/YourPetMightLove/YourPetMightLove";
 
 const App = () => {
   useEffect(() => {
@@ -24,6 +25,11 @@ const App = () => {
 
         {/* Home Section */}
           <Home />
+
+           {/* Your Pet Might Love Section */}
+        <section id="product" className="py-12 bg-white">
+          <YourPetMightLove />
+        </section>
 
         {/* Product Section */}
         <section id="product">
