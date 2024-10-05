@@ -6,12 +6,12 @@ const Menus =[
   {
     id: 1,
     name: "Home",
-    link: "/#",
+    link: "/#home",
   },
   {
     id: 2,
-    name: "Adoption",
-    link: "/#adoption",
+    name: "Store",
+    link: "/#product",
   },
   {
     id: 3,
@@ -52,6 +52,7 @@ export const Navbar = () => {
                 </li>
             ))}
           </ul>
+          {/* Cart Button */}
           <button className="bg-primary/70 px-4 py-2 rounded-full
           hover:scale-105 duration-200 flex items-center gap-3">
             Cart
