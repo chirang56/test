@@ -37,8 +37,9 @@ const ProductSection = () => {
         ))}
       </div>
 
-      {/* View More Button */}
-      <div className="flex justify-center mt-8">
+      {/* View More/Less Button */}
+      <div className="flex justify-center mt-8 space-x-4">
+        {/* View More Button  */}
         {visibleCount < products.length && (
           <button
             className="bg-orange-500 text-white py-2 px-6 rounded-lg hover:bg-orange-600 transition duration-300"
@@ -46,6 +47,15 @@ const ProductSection = () => {
           >
             View More
           </button>
+        )}
+        {/* View Less Button */}
+        {visibleCount > 3 && (
+          <button
+          className="bg-gray-500 text white py-2 px-6 rounded-lg hover:bg-gray-600 transition duration-300"
+          onClick={() => setVisibleCount(3)}
+          >
+            View Less
+            </button>
         )}
       </div>
     </div>

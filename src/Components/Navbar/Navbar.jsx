@@ -6,7 +6,7 @@ const Menus =[
   {
     id: 1,
     name: "Home",
-    link: "/#home",
+    link: "/#",
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ export const Navbar = () => {
       <div className="flex justify-between items-center gap-4 ">
 
         {/* Logo section */}
-        <div className="" >
+        <div className="Logo">
           <a href="#" className="font-bold text-2xl sm:text-3xl
           flex justify-center items-center gap-2
           tracking-wider font-chicle">

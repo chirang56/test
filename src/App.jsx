@@ -21,14 +21,12 @@ const App = () => {
 
       {/* Main Sections */}
       <main>
+
         {/* Home Section */}
-        <section id="home" className="h-screen bg-orange-100 flex items-center justify-center">
-          <h1 className="text-4xl font-bold text-gray-800">Welcome to PetGo Mania!</h1>
           <Home />
-        </section>
 
         {/* Product Section */}
-        <section id="product" className="py-12 bg-white">
+        <section id="product">
           <ProductSection />
         </section>
 
@@ -36,12 +34,17 @@ const App = () => {
         <section id="contact" className="h-screen bg-orange-100 flex items-center justify-center">
           <h2 className="text-3xl font-bold text-gray-800">Contact Us</h2>
         </section>
+
       </main>
 
-      {/* <Home/>
-      <About/>
-      <Menu/>
-      <Contact/> */}
+      {/* <Home />
+      <ProductSection />
+      <Best Selling Product />
+      <Best Selling Product />
+      <Best Selling Product />
+      <Best Selling Product />
+      <Contact /> */}
+
     </div>
   );
 };
