@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const ProductSection = () => {
   // Sample product data (replace with actual API or database data)
   const products = [
-    { id: 1, name: "Chew Toy", description: "Durable chew toy perfect for teething puppies.", imageUrl: "https://via.placeholder.com/150", price: "$12.99" },
+    { id: 1, name: "Chew Toy", description: "Durable chew toy perfect for teething puppies.", imageUrl: "https://images.all-free-download.com/images/graphicwebp/nature_picture_ladybug_leaf_closeup_6930245.webp", price: "$12.99" },
     { id: 2, name: "Pet Bed", description: "Comfortable pet bed for small to medium pets.", imageUrl: "https://via.placeholder.com/150", price: "$35.00" },
     { id: 3, name: "Cat Scratcher", description: "Sturdy cat scratcher to keep your feline entertained.", imageUrl: "https://via.placeholder.com/150", price: "$18.50" },
     { id: 4, name: "Dog Leash", description: "Strong and durable leash for dogs.", imageUrl: "https://via.placeholder.com/150", price: "$10.50" },
