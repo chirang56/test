@@ -9,8 +9,6 @@ const YourPetMightLove = () => {
         imageUrl: "https://via.placeholder.com/150", price: "$12.99" },
     { id: 2, name: "Pet Bed", description: "Soft and comfy bed for pets.", 
         imageUrl: "https://images.all-free-download.com/images/graphicwebp/nature_picture_ladybug_leaf_closeup_6930245.webp", price: "$35.00" },
-    { id: 3, name: "Cat Scratcher", description: "Keeps cats entertained.", 
-        imageUrl: "https://via.placeholder.com/150", price: "$18.50" },
     { id: 4, name: "Dog Leash", description: "Strong and durable leash.", 
         imageUrl: "https://via.placeholder.com/150", price: "$10.50" },
     { id: 5, name: "Pet Shampoo", description: "Gentle and safe shampoo.", 
@@ -19,8 +17,6 @@ const YourPetMightLove = () => {
         imageUrl: "https://via.placeholder.com/150", price: "$45.00" },
     { id: 7, name: "Dog Bowl", description: "Stainless steel bowl.", 
         imageUrl: "https://via.placeholder.com/150", price: "$8.50" },
-    { id: 8, name: "Cat Tree", description: "Multi-level for fun and rest.", 
-        imageUrl: "https://via.placeholder.com/150", price: "$120.00" },
   ];
 
   // Ref to control the scroll position of the product container

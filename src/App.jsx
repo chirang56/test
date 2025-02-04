@@ -45,8 +45,7 @@ const App = () => {
 
       {/* <Home />
       <ProductSection />
-      <Best Selling Product />
-      <Best Selling Product />
+      <YourPetMightLove />
       <Best Selling Product />
       <Best Selling Product />
       <Contact /> */}
